@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BF034202BD62831003142A5 /* ImageStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0341F2BD62831003142A5 /* ImageStorageManager.swift */; };
+		5BF034222BD62845003142A5 /* ImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF034212BD62845003142A5 /* ImagePickerViewModel.swift */; };
+		5BF034242BD6286E003142A5 /* BgSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF034232BD6286E003142A5 /* BgSettingView.swift */; };
+		5BF034262BD6379C003142A5 /* Morro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BF034252BD6379C003142A5 /* Morro-Regular.ttf */; };
+		8DCB561A2B222A1200F11F35 /* AlarmAppWithoutBGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB56192B222A1200F11F35 /* AlarmAppWithoutBGApp.swift */; };
+		8DCB561C2B222A1200F11F35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB561B2B222A1200F11F35 /* ContentView.swift */; };
+		8DCB561E2B222A1300F11F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCB561D2B222A1300F11F35 /* Assets.xcassets */; };
+		8DCB56212B222A1300F11F35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCB56202B222A1300F11F35 /* Preview Assets.xcassets */; };
+		8DCB56292B222B9D00F11F35 /* AlarmSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB56282B222B9D00F11F35 /* AlarmSettings.swift */; };
+		8DCB562B2B222BC100F11F35 /* SelectSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB562A2B222BC100F11F35 /* SelectSound.swift */; };
+		8DCB562D2B222BD800F11F35 /* SleepSoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB562C2B222BD800F11F35 /* SleepSoundView.swift */; };
+		8DCB562F2B222BE500F11F35 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB562E2B222BE500F11F35 /* Review.swift */; };
+		8DCB56332B222C0100F11F35 /* AlarmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB56322B222C0100F11F35 /* AlarmManager.swift */; };
+		8DCB56352B222C1300F11F35 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB56342B222C1300F11F35 /* AudioManager.swift */; };
+		8DCB56372B222C2C00F11F35 /* VinrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB56362B222C2C00F11F35 /* VinrationManager.swift */; };
+		8DCB56392B222C3B00F11F35 /* NotifivationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB56382B222C3B00F11F35 /* NotifivationManager.swift */; };
+		8DCB563B2B222C7600F11F35 /* SnoozeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB563A2B222C7600F11F35 /* SnoozeManager.swift */; };
+		8DCB563D2B222C8200F11F35 /* Appdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB563C2B222C8200F11F35 /* Appdelegate.swift */; };
+		8DCB563F2B222C9800F11F35 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB563E2B222C9800F11F35 /* AppState.swift */; };
+		8DCB56412B222CBC00F11F35 /* Glassmorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB56402B222CBC00F11F35 /* Glassmorphism.swift */; };
+		8DCB56482B2230CD00F11F35 /* Alarm2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DCB56462B2230CD00F11F35 /* Alarm2.wav */; };
+		8DCB56492B2230CD00F11F35 /* Alarm1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DCB56472B2230CD00F11F35 /* Alarm1.wav */; };
+		8DCB564B2B2230D400F11F35 /* silent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DCB564A2B2230D400F11F35 /* silent.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BF0341F2BD62831003142A5 /* ImageStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorageManager.swift; sourceTree = "<group>"; };
+		5BF034212BD62845003142A5 /* ImagePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewModel.swift; sourceTree = "<group>"; };
+		5BF034232BD6286E003142A5 /* BgSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgSettingView.swift; sourceTree = "<group>"; };
+		5BF034252BD6379C003142A5 /* Morro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Morro-Regular.ttf"; sourceTree = "<group>"; };
+		8DCB56162B222A1200F11F35 /* AlarmAppWithoutBG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmAppWithoutBG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCB56192B222A1200F11F35 /* AlarmAppWithoutBGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmAppWithoutBGApp.swift; sourceTree = "<group>"; };
+		8DCB561B2B222A1200F11F35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DCB561D2B222A1300F11F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DCB56202B222A1300F11F35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DCB56272B222A1E00F11F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DCB56282B222B9D00F11F35 /* AlarmSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettings.swift; sourceTree = "<group>"; };
+		8DCB562A2B222BC100F11F35 /* SelectSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSound.swift; sourceTree = "<group>"; };
+		8DCB562C2B222BD800F11F35 /* SleepSoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSoundView.swift; sourceTree = "<group>"; };
+		8DCB562E2B222BE500F11F35 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		8DCB56322B222C0100F11F35 /* AlarmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmManager.swift; sourceTree = "<group>"; };
+		8DCB56342B222C1300F11F35 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		8DCB56362B222C2C00F11F35 /* VinrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinrationManager.swift; sourceTree = "<group>"; };
+		8DCB56382B222C3B00F11F35 /* NotifivationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifivationManager.swift; sourceTree = "<group>"; };
+		8DCB563A2B222C7600F11F35 /* SnoozeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoozeManager.swift; sourceTree = "<group>"; };
+		8DCB563C2B222C8200F11F35 /* Appdelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appdelegate.swift; sourceTree = "<group>"; };
+		8DCB563E2B222C9800F11F35 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8DCB56402B222CBC00F11F35 /* Glassmorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glassmorphism.swift; sourceTree = "<group>"; };
+		8DCB56462B2230CD00F11F35 /* Alarm2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Alarm2.wav; sourceTree = "<group>"; };
+		8DCB56472B2230CD00F11F35 /* Alarm1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Alarm1.wav; sourceTree = "<group>"; };
+		8DCB564A2B2230D400F11F35 /* silent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silent.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DCB56132B222A1200F11F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DCB560D2B222A1200F11F35 = {
+			isa = PBXGroup;
+			children = (
+				8DCB56182B222A1200F11F35 /* AlarmAppWithoutBG */,
+				8DCB56172B222A1200F11F35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DCB56172B222A1200F11F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DCB56162B222A1200F11F35 /* AlarmAppWithoutBG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DCB56182B222A1200F11F35 /* AlarmAppWithoutBG */ = {
+			isa = PBXGroup;
+			children = (
+				8DCB56272B222A1E00F11F35 /* Info.plist */,
+				8DCB56192B222A1200F11F35 /* AlarmAppWithoutBGApp.swift */,
+				8DCB561B2B222A1200F11F35 /* ContentView.swift */,
+				8DCB56282B222B9D00F11F35 /* AlarmSettings.swift */,
+				5BF0341F2BD62831003142A5 /* ImageStorageManager.swift */,
+				8DCB562A2B222BC100F11F35 /* SelectSound.swift */,
+				5BF034212BD62845003142A5 /* ImagePickerViewModel.swift */,
+				5BF034232BD6286E003142A5 /* BgSettingView.swift */,
+				8DCB562C2B222BD800F11F35 /* SleepSoundView.swift */,
+				8DCB564A2B2230D400F11F35 /* silent.wav */,
+				8DCB562E2B222BE500F11F35 /* Review.swift */,
+				8DCB56472B2230CD00F11F35 /* Alarm1.wav */,
+				8DCB56462B2230CD00F11F35 /* Alarm2.wav */,
+				8DCB56322B222C0100F11F35 /* AlarmManager.swift */,
+				8DCB56342B222C1300F11F35 /* AudioManager.swift */,
+				5BF034252BD6379C003142A5 /* Morro-Regular.ttf */,
+				8DCB56362B222C2C00F11F35 /* VinrationManager.swift */,
+				8DCB56382B222C3B00F11F35 /* NotifivationManager.swift */,
+				8DCB563A2B222C7600F11F35 /* SnoozeManager.swift */,
+				8DCB563C2B222C8200F11F35 /* Appdelegate.swift */,
+				8DCB563E2B222C9800F11F35 /* AppState.swift */,
+				8DCB56402B222CBC00F11F35 /* Glassmorphism.swift */,
+				8DCB561D2B222A1300F11F35 /* Assets.xcassets */,
+				8DCB561F2B222A1300F11F35 /* Preview Content */,
+			);
+			path = AlarmAppWithoutBG;
+			sourceTree = "<group>";
+		};
+		8DCB561F2B222A1300F11F35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DCB56202B222A1300F11F35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DCB56152B222A1200F11F35 /* AlarmAppWithoutBG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCB56242B222A1300F11F35 /* Build configuration list for PBXNativeTarget "AlarmAppWithoutBG" */;
+			buildPhases = (
+				8DCB56122B222A1200F11F35 /* Sources */,
+				8DCB56132B222A1200F11F35 /* Frameworks */,
+				8DCB56142B222A1200F11F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlarmAppWithoutBG;
+			productName = AlarmAppWithoutBG;
+			productReference = 8DCB56162B222A1200F11F35 /* AlarmAppWithoutBG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DCB560E2B222A1200F11F35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8DCB56152B222A1200F11F35 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8DCB56112B222A1200F11F35 /* Build configuration list for PBXProject "AlarmAppWithoutBGのコピー" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DCB560D2B222A1200F11F35;
+			productRefGroup = 8DCB56172B222A1200F11F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DCB56152B222A1200F11F35 /* AlarmAppWithoutBG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DCB56142B222A1200F11F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCB56492B2230CD00F11F35 /* Alarm1.wav in Resources */,
+				8DCB56212B222A1300F11F35 /* Preview Assets.xcassets in Resources */,
+				8DCB56482B2230CD00F11F35 /* Alarm2.wav in Resources */,
+				5BF034262BD6379C003142A5 /* Morro-Regular.ttf in Resources */,
+				8DCB564B2B2230D400F11F35 /* silent.wav in Resources */,
+				8DCB561E2B222A1300F11F35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DCB56122B222A1200F11F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCB561C2B222A1200F11F35 /* ContentView.swift in Sources */,
+				8DCB562B2B222BC100F11F35 /* SelectSound.swift in Sources */,
+				5BF034222BD62845003142A5 /* ImagePickerViewModel.swift in Sources */,
+				8DCB56412B222CBC00F11F35 /* Glassmorphism.swift in Sources */,
+				8DCB561A2B222A1200F11F35 /* AlarmAppWithoutBGApp.swift in Sources */,
+				8DCB563B2B222C7600F11F35 /* SnoozeManager.swift in Sources */,
+				5BF034202BD62831003142A5 /* ImageStorageManager.swift in Sources */,
+				8DCB56292B222B9D00F11F35 /* AlarmSettings.swift in Sources */,
+				8DCB56332B222C0100F11F35 /* AlarmManager.swift in Sources */,
+				8DCB56372B222C2C00F11F35 /* VinrationManager.swift in Sources */,
+				8DCB56352B222C1300F11F35 /* AudioManager.swift in Sources */,
+				5BF034242BD6286E003142A5 /* BgSettingView.swift in Sources */,
+				8DCB563F2B222C9800F11F35 /* AppState.swift in Sources */,
+				8DCB56392B222C3B00F11F35 /* NotifivationManager.swift in Sources */,
+				8DCB562D2B222BD800F11F35 /* SleepSoundView.swift in Sources */,
+				8DCB562F2B222BE500F11F35 /* Review.swift in Sources */,
+				8DCB563D2B222C8200F11F35 /* Appdelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DCB56222B222A1300F11F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DCB56232B222A1300F11F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DCB56252B222A1300F11F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlarmAppWithoutBG/Preview Content\"";
+				DEVELOPMENT_TEAM = UA987WRZ94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlarmAppWithoutBG/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoikomatsuno.AlarmAppWithoutBG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DCB56262B222A1300F11F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlarmAppWithoutBG/Preview Content\"";
+				DEVELOPMENT_TEAM = UA987WRZ94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlarmAppWithoutBG/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoikomatsuno.AlarmAppWithoutBG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DCB56112B222A1200F11F35 /* Build configuration list for PBXProject "AlarmAppWithoutBGのコピー" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCB56222B222A1300F11F35 /* Debug */,
+				8DCB56232B222A1300F11F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DCB56242B222A1300F11F35 /* Build configuration list for PBXNativeTarget "AlarmAppWithoutBG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCB56252B222A1300F11F35 /* Debug */,
+				8DCB56262B222A1300F11F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DCB560E2B222A1200F11F35 /* Project object */;
+}
